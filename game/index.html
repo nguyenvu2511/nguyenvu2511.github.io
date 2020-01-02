@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="minigame.js"></script>
+	<title>Đố vui có thưởng</title>
+</head>
+<body>
+	<marquee  style="border:2px;background-color:#FFFFFF">www.timoday.edu.vn - Nơi để thư giãn & chia sẻ kiến thức IT</marquee>
+<div class="general">
+	<div class="title">
+		<h1>
+			<marquee behavior="alternate" width="10%">>>
+			</marquee>ĐỐ VUI CÓ THƯỞNG<marquee behavior="alternate" width="10%"><< </marquee>
+		</h1>
+	</div>
+	<div class="level" id="level1" >
+		<div class="checkBox" id="chk1">
+	 		<p><b>LEVEL 1</b><p>
+	  		<svg width="140" height="65" viewBox="0 0 140 65" xmlns="http://www.w3.org/2000/svg">
+	    	<rect x="10" class="button" width="128.8" height="63.9"/>
+	    	<rect x="0" y="22.5" class="box" width="20" height="20"/>
+	    	<polyline class="checkMark" points="4.5,32.6 8.7,36.8 16.5,29.1"/>
+	  		</svg>
+		</div>
+ 		<div class="checkBox" id="chk2" >
+ 			<p><b>LEVEL 2</b><p>
+	  		<svg width="140" height="65" viewBox="0 0 140 65" xmlns="http://www.w3.org/2000/svg">
+	    	<rect x="10" class="button" width="128.8" height="63.9"/>
+	    	<rect x="0" y="22.5" class="box" width="20" height="20"/>
+	    	<polyline class="checkMark" points="4.5,32.6 8.7,36.8 16.5,29.1"/>
+	  		</svg>
+		</div>
+	</div>
+		<div class="news" id="open1">
+			<div>
+   				<div class="article">
+	        		<div class="thumb" style="background-image: url(Tranh-cac-loai-dong-vat.png);" id="chk3"></div>
+	        		<span><b>CON VẬT</b></span>
+	    		</div>
+	     		<div class="article">
+        			<div class="thumb" style="background-image: url(painel-de-festa-em-tecido-meios-de-transporte-5-00m-x-3-00m-painel-de-festa.jpg);"id="chk4"></div>
+       				<span><b>XE CỘ</b></span>
+    			</div>
+    			<div>
+    				<h3>LỰA CHỌN CHỦ ĐỀ</h3>
+    			</div>
+				<div id="back1" class="select">
+					<i class="fa fa-arrow-left"><br>back</i>
+				</div>	
+			</div>
+		</div>
+		<div class="news" id ="open2">
+	    	<div class="article">
+	       		<div class="thumb" style="background-image: url(fish.jpg);margin:-35px 100px 200px 130px;">
+	       			<table border="1px">
+		           	<td>
+		           	<div  id="z-name"></div> 
+		           	</td>
+		         </table>
+	       		</div>
+			</div>
+			<div class="check">
+				<form method="post" action="" onsubmit="return validateForm()">
+		            Kết quả: <input type="text" name="name" id="name" value=""/>
+		            <input  type="submit" name="login" value="Kiểm tra"/>
+		        </form>
+		    </div>
+		    <div>
+	    			<h3 style="margin-left: 25px">ĐIỀN VÀO CHỖ TRỐNG TÊN CON VẬT BẰNG TIẾNG ANH</h3>
+	    	</div>
+	    	<div class="select" style="margin-top: -22px">
+					<i class="fa fa-arrow-left" id="back2"><br>back</i>
+					<i class="fa fa-arrow-right" style="margin-left: 5px" id="next1"><br>next</i>
+			</div>
+	    </div>
+	    <div class="news" id ="open3">
+	    	<div class="article">
+	       		<div class="thumb" style="background-image: url(chim.jpg);margin:-35px 100px 200px 130px;">
+	       			<table border="1px">
+		           	<td>
+		           	<div  id="z-name1"></div> 
+		           	</td>
+		         </table>
+	       		</div>
+			</div>
+			<div class="check">
+				<form method="post" action="" onsubmit="return validateForm1()">
+		            Kết quả: <input type="text" name="name1" id="name1" value=""/>
+		            <input  type="submit" name="login" value="Kiểm tra"/>
+		        </form>
+		    </div>
+		    <div>
+	    			<h3 style="margin-left: 25px">ĐIỀN VÀO CHỖ TRỐNG TÊN CON VẬT BẰNG TIẾNG ANH</h3>
+	    	</div>
+	    	<div class="select" style="margin-top: -22px">
+					<i class="fa fa-arrow-left" id="back3"><br>back</i>
+					<i class="fa fa-arrow-right" style="margin-left: 5px" id="next2"><br>next</i>
+				</div>
+		</div>
+		<div class="news" id ="open4">
+	    	<div class="article">
+	       		<div class="thumb" style="background-image: url(car.jpg);margin:-35px 100px 200px 130px;">
+	       			<table border="1px">
+		           	<td>
+		           	<div  id="z-name2"></div> 
+		           	</td>
+		         </table>
+	       		</div>
+			</div>
+			<div class="check">
+				<form method="post" action="" onsubmit="return validateForm2()">
+		            Kết quả: <input type="text" name="name2" id="name2" value=""/>
+		            <input  type="submit" name="login" value="Kiểm tra"/>
+		        </form>
+		    </div>
+		    <div>
+	    			<h3 style="margin-left: 25px">ĐIỀN VÀO CHỖ TRỐNG TÊN PHƯƠNG TIỆN BẰNG TIẾNG ANH</h3>
+	    	</div>
+	    	<div class="select" style="margin-top: -22px">
+					<i class="fa fa-arrow-left" id="back4"><br>back</i>
+					<i class="fa fa-arrow-right" style="margin-left: 5px" id="next3"><br>next</i>
+				</div>
+		</div>
+		<div class="news" id ="open5">
+	    	<div class="article">
+	       		<div class="thumb" style="background-image: url(motorbike.jpg);margin:-35px 100px 200px 130px;">
+	       			<table border="1px">
+		           	<td>
+		           	<div  id="z-name3"></div> 
+		           	</td>
+		         </table>
+	       		</div>
+			</div>
+			<div class="check">
+				<form method="post" action="" onsubmit="return validateForm3()">
+		            Kết quả: <input type="text" name="name3" id="name3" value=""/>
+		            <input  type="submit" name="login" value="Kiểm tra"/>
+		        </form>
+		    </div>
+		    <div>
+	    			<h3 style="margin-left: 25px">ĐIỀN VÀO CHỖ TRỐNG TÊN PHƯƠNG TIỆN BẰNG TIẾNG ANH</h3>
+	    	</div>
+	    	<div class="select" style="margin-top: -22px">
+					<i class="fa fa-arrow-left" id="back5"><br>back</i>
+					<i class="fa fa-arrow-right" style="margin-left: 5px" id="next4"><br>next</i>
+			</div>
+		</div>
+	    <div class="news" id="open6">
+			<div>
+   				<div class="article">
+	        		<div class="thumb" style="background-image: url(nhanvat.jpg);" id="chk5"></div>
+	        		<span><b>NHÂN VẬT</b></span>
+	    		</div>
+	     		<div class="article">
+        			<div class="thumb" style="background-image: url(hacknao.jpg);" id="chk6"></div>
+       				<span><b>HACK NÃO</b></span>
+    			</div>
+    			<div>
+    				<h3>LỰA CHỌN CHỦ ĐỀ</h3>
+    			</div>
+				<div id="back6" class="select">
+					<i class="fa fa-arrow-left"><br>back</i>
+				</div>
+			</div>
+		</div>
+		<div class="news" id ="open7">
+	    	<div class="article">
+	       		<div class="thumb" style="background-image: url(tokuda.png);margin:-35px 100px 200px 130px;">
+	       			<table border="1px">
+		           	<td>
+		           	<div  id="z-name4"></div> 
+		           	</td>
+		         </table>
+	       		</div>
+			</div>
+			<div class="check">
+				<form method="post" action="" onsubmit="return validateForm4()">
+		            Kết quả: <input type="text" name="name4" id="name4" value=""/>
+		            <input  type="submit" name="login" value="Kiểm tra"/>
+		        </form>
+		    </div>
+		    <div>
+	    			<h3 style="margin-left: 25px">NHÂN VẬT NỔI TIẾNG NÀY TÊN LÀ GÌ?</h3>
+	    	</div>
+	    	<div class="select" style="margin-top: -22px">
+					<i class="fa fa-arrow-left" id="back7"><br>back</i>
+					<i class="fa fa-arrow-right" style="margin-left: 5px" id="next5"><br>next</i>
+				</div>
+	    </div>
+	    <div class="news" id ="open8">
+	    	<div class="article">
+	       		<div class="thumb" style="background-image: url(dovui.png);margin:-35px 100px 200px 130px;" id="chk7">
+	       		</div>
+	    	</div>
+	    	<div>
+	       			<p style="font-size: 28px;margin-top: -20px">Câu hỏi:Có một ông sư thích đập đá nhưng lại không có tiền.Vì thế mỗi lần ông thích là lại lấy đồ của chùa đem đi bán.Vậy ông sư đó có pháp danh là gì?</p>
+	       	</div>
+	       	<p onclick="changeText(this)" style="margin-top: -20px;color: red">XEM ĐÁP ÁN</p>
+	    </div>
+
+</div>
+<script type="text/javascript"> 
+        document.getElementById("chk1").onclick = function() { 
+  
+            document.getElementById("level1").style.display = "none"; 
+			document.getElementById("open1").style.display = "block"; 
+  		 };
+  		 document.getElementById("chk2").onclick = function() { 
+  
+            document.getElementById("level1").style.display = "none"; 
+			document.getElementById("open6").style.display = "block"; 
+  		 };
+  		 document.getElementById("chk3").onclick = function() { 
+  
+            document.getElementById("open1").style.display = "none"; 
+			document.getElementById("open2").style.display = "block"; 
+  		 }; 
+        document.getElementById("back1").onclick = function() {
+        	document.getElementById("open1").style.display = "none";
+        	document.getElementById("level1").style.display = "block";
+        };
+        document.getElementById("back2").onclick = function() {
+        	document.getElementById("open2").style.display = "none";
+        	document.getElementById("open1").style.display = "block";
+        };
+        document.getElementById("chk5").onclick = function() {
+        	document.getElementById("open6").style.display = "none";
+        	document.getElementById("open7").style.display = "block";
+        };
+        document.getElementById("chk6").onclick = function() {
+        	document.getElementById("open6").style.display = "none";
+        	document.getElementById("open8").style.display = "block";
+        };
+        document.getElementById("next1").onclick = function() {
+        	document.getElementById("open2").style.display = "none";
+        	document.getElementById("open3").style.display = "block";
+        };
+        document.getElementById("next3").onclick = function() {
+        	document.getElementById("open4").style.display = "none";
+        	document.getElementById("open5").style.display = "block";
+        };
+        document.getElementById("next5").onclick = function() {
+        	document.getElementById("open8").style.display = "none";
+        	document.getElementById("open7").style.display = "block";
+        };
+        document.getElementById("back3").onclick = function() {
+        	document.getElementById("open3").style.display = "none";
+        	document.getElementById("open2").style.display = "block";
+        };
+        document.getElementById("back4").onclick = function() {
+        	document.getElementById("open4").style.display = "none";
+        	document.getElementById("open1").style.display = "block";
+        };
+        document.getElementById("back5").onclick = function() {
+        	document.getElementById("open5").style.display = "none";
+        	document.getElementById("open4").style.display = "block";
+        };
+        document.getElementById("back6").onclick = function() {
+        	document.getElementById("open6").style.display = "none";
+        	document.getElementById("level1").style.display = "block";
+        };
+        document.getElementById("back7").onclick = function() {
+        	document.getElementById("open7").style.display = "none";
+        	document.getElementById("open6").style.display = "block";
+        };
+         document.getElementById("chk4").onclick = function() {
+        	document.getElementById("open1").style.display = "none";
+        	document.getElementById("open4").style.display = "block";
+        };
+</script>
+</body>
+</html>
